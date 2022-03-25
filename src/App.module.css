@@ -1,0 +1,13 @@
+.App {
+  width: 75%;
+  margin: 0 auto;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .App {
+    width: 100%;
+    background-color: yellow;
+  }
+}
