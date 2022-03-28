@@ -21,11 +21,13 @@
 .search {
   display: flex;
   align-items: center;
+  flex: 1;
 }
 
 .search input {
   border-radius: 2%;
   border: none;
+  width: 90%;
   height: 25px;
   padding: 3px 10px;
 }
@@ -34,7 +36,7 @@
   background-color: #323232;
   opacity: 0.8;
   border: none;
-  height: 32px;
+  height: 31px;
 }
 
 .search button img {
