@@ -1,0 +1,39 @@
+.MovieItem {
+  width: 47%;
+  height: 110px;
+  margin-bottom: 0.5rem;
+  padding: 1%;
+  border: 1px solid #3333;
+  border-radius: 0.2rem;
+  box-shadow: 0.1rem 0.2rem #e8dede;
+  display: flex;
+  align-items: center;
+}
+
+.MovieItem img {
+  margin-right: 1rem;
+}
+
+.MovieItem span {
+  font-size: 1rem;
+}
+
+.channelTitle {
+  color: grey;
+}
+
+.MovieItem:hover {
+  transform: scaleX(1.05);
+}
+
+@media screen and (max-width: 600px){
+  .MovieItem {
+    width: 94%;
+    display: flex;
+  }
+
+  .MovieItem:hover {
+    transform: scaleX(1.03);
+    font-size: 1rem;
+  }
+}
