@@ -11,13 +11,15 @@ const MovieItem = ({ movie }) => {
   };
 
   return (
-    <Link to={`video/${movie.id.videoId}`}>
-      <li onClick={handleClickMovie} className={styles.MovieItem}>
+    <li onClick={handleClickMovie} className={styles.MovieItem}>
+      <Link to={`video/${movie.id.videoId}`}>
         <img src={movie.snippet.thumbnails.default.url} alt={movie.snippet.title} />
+      </Link>
+      <Link className={styles.Link} to={`video/${movie.id.videoId}`}>
         <span className={styles.title}>{movie.snippet.title}</span>
         <span className={styles.channelTitle}>{movie.channelTitle}</span>
-      </li>
-    </Link>
+      </Link>
+    </li>
   )
 };
 

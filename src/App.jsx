@@ -64,7 +64,8 @@ function App() {
           } />
         <Route path="video/:videoId"
           element={
-            <MovieDetail />
+            <MovieDetail 
+              apiData = {data}/>
           }/>
       </Routes>
     </div>

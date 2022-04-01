@@ -18,6 +18,11 @@
   font-size: 1rem;
 }
 
+.Link {
+  text-decoration: none;
+  color: black;
+}
+
 .channelTitle {
   color: grey;
 }
